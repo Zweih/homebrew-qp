@@ -23,10 +23,10 @@ class Qp < Formula
    on_linux do
     if Hardware::CPU.intel?
       url "#{homepage}/releases/download/v#{version}/qp-v#{version}-brew-x86_64.tar.gz"
-      sha256 sha256_linux_amd64
+      sha256 sha256_linux_x86_64
     elsif Hardware::CPU.arm?
       url "#{homepage}/releases/download/v#{version}/qp-v#{version}-brew-aarch64.tar.gz"
-      sha256 sha256_linux_arm64
+      sha256 sha256_linux_aarch64
     end
   end
 
