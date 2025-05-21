@@ -1,6 +1,6 @@
 class Qp < Formula
   desc "qp - Query Packages. A CLI utility for querying installed packages."
-  homepage "https://github.com/Zweih/qp-test"
+  homepage "https://github.com/Zweih/qp"
   version "5.49.0"
   license "GPL-3.0-only"
 
