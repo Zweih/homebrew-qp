@@ -1,14 +1,14 @@
 class Qp < Formula
   desc "qp - Query Packages. A CLI utility for querying installed packages."
   homepage "https://github.com/Zweih/qp"
-  version "5.71.0"
+  version "5.71.1"
   license "GPL-3.0-only"
 
-  sha256_amd64 = "512ed52055e44da52f41894bfddcd72ff15d5a4ca94c08180d50ae887bb52419"
-  sha256_arm64 = "b46c8aa40c2d54ae1192eaa0c51f8568d37424a82eff2ac7c86432121c70f8c0"
+  sha256_amd64 = "0e373d82f2e71685c002cfda2d3cf205bf578d1294739cb27c1f29541a279108"
+  sha256_arm64 = "4c2d1472b1b02b145cd1b5419b90583e5cbf63c4a5ed854c515e10fb094f7d8b"
 
-  sha256_linux_x86_64 = "63acc021e5667f5e4a05d367b91c2da83571e301ed119de5d02fd58d5a6389da"
-  sha256_linux_aarch64 = "60d7f8298be844c0c744f3827a6f683abd401a17cca7e37ca5995805ce469cbc"
+  sha256_linux_x86_64 = "e544fe09b38e60ae20cf123ca012df606033c6f3f85f286be13433b7e6d1862e"
+  sha256_linux_aarch64 = "41ec6834e1dee4aaf9f95d0134e7681ed143ea7f1c05efafc32b7c59f0c9c663"
 
   on_macos do
     if Hardware::CPU.intel?
