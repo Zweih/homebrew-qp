@@ -4,7 +4,7 @@ class Qp < Formula
   version "5.84.0"
   license "GPL-3.0-only"
 
-  depends_on "sqlite", optional: true
+  depends_on "sqlite" => :optional
 
   sha256_amd64 = "2eb9f9075be7306e70ca94b666b6a8944cefd4393d8047af964854d3af6bcaea"
   sha256_arm64 = "8bf74ef129ed782667e67148734601f36e68b875a9db0d1684cc7f50271bb37a"
