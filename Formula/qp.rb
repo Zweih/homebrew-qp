@@ -1,16 +1,16 @@
 class Qp < Formula
   desc "qp - Query Packages. A CLI utility for querying installed packages."
   homepage "https://github.com/Zweih/qp"
-  version "5.106.0"
+  version "5.107.0"
   license "GPL-3.0-only"
 
   depends_on "sqlite" => :optional
 
-  sha256_amd64 = "e454188d7bbad4e424be28841010c7801fae08b6605e7da4b931fe82b93f7eab"
-  sha256_arm64 = "4dcdb20696a6e68cc57142f2d1039076c6e03809a9d111acc8a23bbf509badb2"
+  sha256_amd64 = "92af66bc5e4abc23aaff7248e9ddff17cf93e9bdb47cc29a7309dac40f389fc9"
+  sha256_arm64 = "2398f1025dde5cf9aacffc9b720d292dcec7abebb17c1dbe3f1e9cc67257458d"
 
-  sha256_linux_x86_64 = "177c0d5bf8b853309aebbd304fd3ffd22f9dc1e6652f731c7a0009c72f8ac89d"
-  sha256_linux_aarch64 = "69841c969869f7d650bfe37bd85961ea53fc1ac1a174cfec2492a857dc6101f9"
+  sha256_linux_x86_64 = "e92fd25d266b30e24fa16502d38d8aacea8eb56737e451dbbfe8e7affc422d57"
+  sha256_linux_aarch64 = "34e2f7f00ebec2cb39d80f47aee3e8e2a67984b69aa1047802073e3744c3b93d"
 
   on_macos do
     if Hardware::CPU.intel?
